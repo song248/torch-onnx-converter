@@ -18,6 +18,10 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip install onnx # or pip install onnx[reference] for optional reference implementation dependencies
 ```
 
-
 ## Ref
 https://github.com/onnx/onnx
+
+
+## Clip4Clip ONNX 변환
+C4C 변환시 pia-ai-package 이용 필요 (T2VRet 사용)  
+그냥 clip4clip 모델 로드해서 사용해도 무방
