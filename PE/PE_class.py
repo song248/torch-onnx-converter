@@ -9,9 +9,9 @@ from collections import OrderedDict
 
 # Safe fallback (only needed if running from deep subfolder)
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from vlm_t.vision_text_head import VisionTextHead
-import vlm_t.vision_encoder.pe as pe
-import vlm_t.vision_encoder.transforms as transforms
+from PE.vision_text_head import VisionTextHead
+import PE.vision_encoder.pe as pe
+import PE.vision_encoder.transforms as transforms
 
 
 class PEModelInitializer:
